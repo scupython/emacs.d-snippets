@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: hform
+# key: hform
+# binding: direct-keybinding
+# --
+<form class="form-horizontal" role="form" name="$1">
+$0
+</form>

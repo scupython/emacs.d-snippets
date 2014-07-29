@@ -1,0 +1,17 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: modal
+# key: modal
+# binding: direct-keybinding
+# --
+<script type="text/ng-template" id="$1.html">
+<div class="modal-header">
+<h3 class="modal-title">$2</h3>
+</div>
+<div class="modal-body$4">
+$0
+</div>
+<div class="modal-footer">
+<button class="btn btn-warning" ng-click="$3">确定</button>
+<button class='btn btn-default' ng-click='modal_cancel()'>取消</button>
+</div>
+</script>
